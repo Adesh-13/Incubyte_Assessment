@@ -11,7 +11,7 @@ import SwiftUI
 struct Incubyte_AssessmentApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CalculatorView()
         }
     }
 }

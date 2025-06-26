@@ -9,9 +9,7 @@ import SwiftUI
 
 struct CalculatorView: View {
     @State private var inputString = ""
-    @State private var result = ""
-    @State private var showingAlert = false
-    @State private var alertMessage = ""
+    @StateObject private var viewModel = CalculatorViewModel()
     
     var body: some View {
         VStack(spacing: 20) {
@@ -24,22 +22,22 @@ struct CalculatorView: View {
                 .padding()
             
             Button("Calculate Sum") {
-                //Logic to be Implemented
+                viewModel.calculateSum(inputString: inputString)
             }
             .padding()
             .background(Color.blue)
             .foregroundColor(.white)
             .cornerRadius(8)
             
-            Text("Result: \(result)")
+            Text("Result: \(viewModel.result)")
                 .font(.title)
                 .padding()
             
             Spacer()
         }
         .padding()
-        .alert(isPresented: $showingAlert) {
-            Alert(title: Text("Error"), message: Text(alertMessage), dismissButton: .default(Text("OK")))
+        .alert(isPresented: $viewModel.showingAlert) {
+            Alert(title: Text("Error"), message: Text(viewModel.alertMessage), dismissButton: .default(Text("OK")))
         }
     }
 }
