@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D98CCFAD2E0D2D6200FB2744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D98CCF972E0D2D6000FB2744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D98CCF9E2E0D2D6000FB2744;
+			remoteInfo = Incubyte_Assessment;
+		};
+		D98CCFB72E0D2D6200FB2744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D98CCF972E0D2D6000FB2744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D98CCF9E2E0D2D6000FB2744;
+			remoteInfo = Incubyte_Assessment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D98CCF9F2E0D2D6000FB2744 /* Incubyte_Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Incubyte_Assessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98CCFAC2E0D2D6200FB2744 /* Incubyte_AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Incubyte_AssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98CCFB62E0D2D6200FB2744 /* Incubyte_AssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Incubyte_AssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D98CCFA12E0D2D6000FB2744 /* Incubyte_Assessment */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Incubyte_Assessment;
+			sourceTree = "<group>";
+		};
+		D98CCFAF2E0D2D6200FB2744 /* Incubyte_AssessmentTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Incubyte_AssessmentTests;
+			sourceTree = "<group>";
+		};
+		D98CCFB92E0D2D6200FB2744 /* Incubyte_AssessmentUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Incubyte_AssessmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D98CCF9C2E0D2D6000FB2744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98CCFA92E0D2D6200FB2744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98CCFB32E0D2D6200FB2744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D98CCF962E0D2D6000FB2744 = {
+			isa = PBXGroup;
+			children = (
+				D98CCFA12E0D2D6000FB2744 /* Incubyte_Assessment */,
+				D98CCFAF2E0D2D6200FB2744 /* Incubyte_AssessmentTests */,
+				D98CCFB92E0D2D6200FB2744 /* Incubyte_AssessmentUITests */,
+				D98CCFA02E0D2D6000FB2744 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D98CCFA02E0D2D6000FB2744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D98CCF9F2E0D2D6000FB2744 /* Incubyte_Assessment.app */,
+				D98CCFAC2E0D2D6200FB2744 /* Incubyte_AssessmentTests.xctest */,
+				D98CCFB62E0D2D6200FB2744 /* Incubyte_AssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D98CCF9E2E0D2D6000FB2744 /* Incubyte_Assessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D98CCFC02E0D2D6200FB2744 /* Build configuration list for PBXNativeTarget "Incubyte_Assessment" */;
+			buildPhases = (
+				D98CCF9B2E0D2D6000FB2744 /* Sources */,
+				D98CCF9C2E0D2D6000FB2744 /* Frameworks */,
+				D98CCF9D2E0D2D6000FB2744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D98CCFA12E0D2D6000FB2744 /* Incubyte_Assessment */,
+			);
+			name = Incubyte_Assessment;
+			packageProductDependencies = (
+			);
+			productName = Incubyte_Assessment;
+			productReference = D98CCF9F2E0D2D6000FB2744 /* Incubyte_Assessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D98CCFAB2E0D2D6200FB2744 /* Incubyte_AssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D98CCFC32E0D2D6200FB2744 /* Build configuration list for PBXNativeTarget "Incubyte_AssessmentTests" */;
+			buildPhases = (
+				D98CCFA82E0D2D6200FB2744 /* Sources */,
+				D98CCFA92E0D2D6200FB2744 /* Frameworks */,
+				D98CCFAA2E0D2D6200FB2744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D98CCFAE2E0D2D6200FB2744 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D98CCFAF2E0D2D6200FB2744 /* Incubyte_AssessmentTests */,
+			);
+			name = Incubyte_AssessmentTests;
+			packageProductDependencies = (
+			);
+			productName = Incubyte_AssessmentTests;
+			productReference = D98CCFAC2E0D2D6200FB2744 /* Incubyte_AssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D98CCFB52E0D2D6200FB2744 /* Incubyte_AssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D98CCFC62E0D2D6200FB2744 /* Build configuration list for PBXNativeTarget "Incubyte_AssessmentUITests" */;
+			buildPhases = (
+				D98CCFB22E0D2D6200FB2744 /* Sources */,
+				D98CCFB32E0D2D6200FB2744 /* Frameworks */,
+				D98CCFB42E0D2D6200FB2744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D98CCFB82E0D2D6200FB2744 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D98CCFB92E0D2D6200FB2744 /* Incubyte_AssessmentUITests */,
+			);
+			name = Incubyte_AssessmentUITests;
+			packageProductDependencies = (
+			);
+			productName = Incubyte_AssessmentUITests;
+			productReference = D98CCFB62E0D2D6200FB2744 /* Incubyte_AssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D98CCF972E0D2D6000FB2744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					D98CCF9E2E0D2D6000FB2744 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					D98CCFAB2E0D2D6200FB2744 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = D98CCF9E2E0D2D6000FB2744;
+					};
+					D98CCFB52E0D2D6200FB2744 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = D98CCF9E2E0D2D6000FB2744;
+					};
+				};
+			};
+			buildConfigurationList = D98CCF9A2E0D2D6000FB2744 /* Build configuration list for PBXProject "Incubyte_Assessment" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D98CCF962E0D2D6000FB2744;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D98CCFA02E0D2D6000FB2744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D98CCF9E2E0D2D6000FB2744 /* Incubyte_Assessment */,
+				D98CCFAB2E0D2D6200FB2744 /* Incubyte_AssessmentTests */,
+				D98CCFB52E0D2D6200FB2744 /* Incubyte_AssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D98CCF9D2E0D2D6000FB2744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98CCFAA2E0D2D6200FB2744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98CCFB42E0D2D6200FB2744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D98CCF9B2E0D2D6000FB2744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98CCFA82E0D2D6200FB2744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98CCFB22E0D2D6200FB2744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D98CCFAE2E0D2D6200FB2744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D98CCF9E2E0D2D6000FB2744 /* Incubyte_Assessment */;
+			targetProxy = D98CCFAD2E0D2D6200FB2744 /* PBXContainerItemProxy */;
+		};
+		D98CCFB82E0D2D6200FB2744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D98CCF9E2E0D2D6000FB2744 /* Incubyte_Assessment */;
+			targetProxy = D98CCFB72E0D2D6200FB2744 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D98CCFBE2E0D2D6200FB2744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = G2U74L2445;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D98CCFBF2E0D2D6200FB2744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = G2U74L2445;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D98CCFC12E0D2D6200FB2744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2U74L2445;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adesh.Incubyte-Assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D98CCFC22E0D2D6200FB2744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2U74L2445;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adesh.Incubyte-Assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D98CCFC42E0D2D6200FB2744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2U74L2445;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adesh.Incubyte-AssessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Incubyte_Assessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Incubyte_Assessment";
+			};
+			name = Debug;
+		};
+		D98CCFC52E0D2D6200FB2744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2U74L2445;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adesh.Incubyte-AssessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Incubyte_Assessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Incubyte_Assessment";
+			};
+			name = Release;
+		};
+		D98CCFC72E0D2D6200FB2744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2U74L2445;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adesh.Incubyte-AssessmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Incubyte_Assessment;
+			};
+			name = Debug;
+		};
+		D98CCFC82E0D2D6200FB2744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2U74L2445;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adesh.Incubyte-AssessmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Incubyte_Assessment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D98CCF9A2E0D2D6000FB2744 /* Build configuration list for PBXProject "Incubyte_Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98CCFBE2E0D2D6200FB2744 /* Debug */,
+				D98CCFBF2E0D2D6200FB2744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D98CCFC02E0D2D6200FB2744 /* Build configuration list for PBXNativeTarget "Incubyte_Assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98CCFC12E0D2D6200FB2744 /* Debug */,
+				D98CCFC22E0D2D6200FB2744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D98CCFC32E0D2D6200FB2744 /* Build configuration list for PBXNativeTarget "Incubyte_AssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98CCFC42E0D2D6200FB2744 /* Debug */,
+				D98CCFC52E0D2D6200FB2744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D98CCFC62E0D2D6200FB2744 /* Build configuration list for PBXNativeTarget "Incubyte_AssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98CCFC72E0D2D6200FB2744 /* Debug */,
+				D98CCFC82E0D2D6200FB2744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D98CCF972E0D2D6000FB2744 /* Project object */;
+}
